@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import logo from './img/alliedge-logo.svg'
 
 function Header(){
     return(
@@ -8,7 +9,7 @@ function Header(){
           <div className="container">
             <nav className='header__nav'>
               <a className='logo' href="#">
-                {/* <img width={90} src={logo} alt="" /> */}
+                <img width={90} src={logo} alt="" />
                <p> Alliedge <br />
                 <span>Technologies</span></p>
               </a>

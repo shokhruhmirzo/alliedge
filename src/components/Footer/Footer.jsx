@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Footer.css'
+import websites from './img/alliedge-websites.svg'
 
 export class Footer extends Component {
   render() {
@@ -16,7 +17,7 @@ export class Footer extends Component {
               <span>Technologies</span></p>
             </a>
 
-            {/* <img className='websites' src={websites} alt="" /> */}
+            <img className='websites' src={websites} alt="" />
           </div>
 
           {/* 2 */}
