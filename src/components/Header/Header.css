@@ -1,0 +1,40 @@
+header{
+    background: rgba(200, 208, 200, 1);
+    padding: 20px 0 ;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 24.2px;
+
+    span{
+        font-weight: 300;
+        font-size: 20px;
+        
+    }
+}
+
+.header__list{
+    display: flex;
+    list-style: none;
+}
+
+.header__item{
+    margin-left: 50px;
+
+    a{
+        color: rgb(8, 82, 135);
+        font-weight: 700;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
