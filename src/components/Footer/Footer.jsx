@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Footer.css'
 import websites from './img/alliedge-websites.svg'
-
+import logo from './img/alliedge-logo.svg'
 export class Footer extends Component {
   render() {
     return (
@@ -12,7 +12,7 @@ export class Footer extends Component {
            {/* 1 */}
            <div className="footer__div">
             <a className='logo footer__logo' href="#">
-             {/* <img src={logo} alt="" /> */}
+             <img src={logo} alt="" />
              <p>Alliedge <br />
               <span>Technologies</span></p>
             </a>
