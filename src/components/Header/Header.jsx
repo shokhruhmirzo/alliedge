@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import logo from './img/alliedge-logo.svg'
+import { Link } from 'react-router-dom'
 
 function Header(){
     return(
@@ -17,19 +18,19 @@ function Header(){
               <ul className='header__list'>
 
                 <li className='header__item'>
-                  <a href="#">Home</a>
+                  <Link to='/'>Home</Link>
                 </li>
                 <li className='header__item'>
-                  <a href="#">Services</a>
+                <Link to='/aboutpage'>About</Link>
                 </li>
                 <li className='header__item'>
-                  <a href="#">Technology</a>
+                <Link to='/contact'>Contact</Link>
                 </li>
                 <li className='header__item'>
-                  <a href="#">Group Compnies</a>
+                <Link to='/'>Technology</Link>
                 </li>
                 <li className='header__item'>
-                  <a href="#">About Us</a>
+                <Link to='/'>Group Compnies</Link>
                 </li>
               </ul>
             </nav>
