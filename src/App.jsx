@@ -12,6 +12,7 @@ import Aboutpage from './pages/Aboutpage/Aboutpage';
 import Contact from './pages/Contact/Contact';
 import { Route, Routes } from 'react-router-dom';
 
+
 // functions
 function App() {
   return (
