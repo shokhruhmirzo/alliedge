@@ -1,6 +1,5 @@
 import React from 'react'
 import './Abouthero.css'
-import Header from '../Header/Header'
 
 function Abouthero() {
   return (
