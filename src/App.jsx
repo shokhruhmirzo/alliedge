@@ -23,6 +23,7 @@ function App() {
         <Route path='/aboutpage' element={ <Aboutpage/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      
       <Footer/>
     </div>
   );
